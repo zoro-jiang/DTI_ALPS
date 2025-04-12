@@ -26,15 +26,15 @@
 1. 输入：
 /Volumes/med_image/ALPS_Liu/DTI_Data/（这只是一个例子具体代表了您的DTI数据保存的文件夹路径，您在使用DTI_preprocessing.py必须替换为自己电脑中DTI数据文件夹的路径，在DTI数据文件夹中，数据必须以这样的方式排列、命名）
 
-├── Subject1/             # 单个受试者/实验的DTI数据文件夹
-│   ├── DTI.nii    # DTI原始数据（NIfTI文件）
-│   ├── bvec          # b向量文件
-│   └── bval          # b值文件
+#### ├── Subject1/             # 单个受试者/实验的DTI数据文件夹
+#### │   ├── DTI.nii    # DTI原始数据（NIfTI文件）
+#### │   ├── bvec          # b向量文件
+#### │   └── bval          # b值文件
 
-├── Subject2/
-│   ├── DTI.nii 
-│   ├── bvec
-│   └── bval
+#### ├── Subject2/
+#### │   ├── DTI.nii 
+#### │   ├── bvec
+#### │   └── bval
 ## ...
 2. 输出：
 /Volumes/med_image/ALPS_Liu/Result（这也只是一个例子，您需要像这样建立一个结果文件夹，并修改代码DTI_preprocessing.py里的output_dir这个路径，替换为自己电脑的结果文件夹路径）
