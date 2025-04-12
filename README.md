@@ -40,11 +40,11 @@
 /Volumes/med_image/ALPS_Liu/Result（这也只是一个例子，您需要像这样建立一个结果文件夹，并修改代码DTI_preprocessing.py里的output_dir这个路径，替换为自己电脑的结果文件夹路径）
 
 #### └── Subject1/    # 示例患者文件夹
-    #### ├── b0_image.nii.gz                   # 原始b0图像
-    #### ├── b0_image_brain.nii.gz             # BET处理后的脑图像
-    #### ├── b0_image_brain_mask.nii.gz        # 脑组织二值化掩膜
-    #### ├── eddy_corrected_data.nii.gz        # 涡流校正后的DTI数据
-    #### ├── eddy_corrected_data.ecclog        # 涡流校正日志文件（新增）
+####     ├── b0_image.nii.gz                   # 原始b0图像
+ ####    ├── b0_image_brain.nii.gz             # BET处理后的脑图像
+####     ├── b0_image_brain_mask.nii.gz        # 脑组织二值化掩膜
+ ####    ├── eddy_corrected_data.nii.gz        # 涡流校正后的DTI数据
+####     ├── eddy_corrected_data.ecclog        # 涡流校正日志文件（新增）
    ####  ├── dti_results_FA.nii.gz             # 各向异性分数
   ####   ├── dti_results_L1.nii.gz             # 纵向扩散系数（λ1）
    ####  ├── dti_results_L2.nii.gz             # 横向扩散系数1（λ2）
