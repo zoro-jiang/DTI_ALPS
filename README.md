@@ -98,3 +98,6 @@
 
 思路：先将全部个体的b0文件标准化得到每个个体配准到标准空间的转换矩阵trans_average.mat，再将转换矩阵用在每个个体个体空间的FA图像上得到每个个体标准空间的FA，并制作一个群体平均FA图像
 在群体空间手动勾画ROI，再映射回每个个体空间
+
+# 引用 ：为贯彻开源精神，请在使用本仓库后对以下论文进行引用
+Wang, M., Jiang, X., Nie, B. et al. Association between movement impairments and glymphatic system dysfunction in spastic diplegic cerebral palsy using DTI-ALPS. Neuroradiology (2025). https://doi.org/10.1007/s00234-025-03628-8
